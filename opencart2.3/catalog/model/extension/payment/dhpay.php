@@ -27,20 +27,32 @@ class ModelExtensionPaymentDhpay extends Model {
      */
 	public function getMethod($address, $total) {
         $this->initConfig();
+
         // 获取交易订单信息 加载订单model
-        $this->load->model('checkout/order');
-        $order_info = $this->model_checkout_order->getOrder($this->session->data['order_id']);
-        $show = Dhpay_Front_Core::show($order_info['currency_code']);
-        $method_data = array();
-        if ($show){
+        
+        if(!isset($this->session->data['order_id'])){
+            $this->load->model('checkout/order');
+            $order_info = $this->model_checkout_order->getOrder($this->session->data['order_id']);
+            $show = Dhpay_Front_Core::show($order_info['currency_code']);
+            $method_data = array();
+            if ($show){
+                $method_data = array(
+                    'code' => 'dhpay',
+                    'title' => '<img src="https://www.dhpay.com/merchantaccount/zh_CN/v2/image/download/pay-3.jpg" />' . $this->config->get('dhpay_title'),
+                    'terms'      => '',
+                    'sort_order' => $this->config->get('dhpay_sort_order')
+                );
+            }
+            return $method_data;
+        } else {
             $method_data = array(
                 'code' => 'dhpay',
                 'title' => '<img src="https://www.dhpay.com/merchantaccount/zh_CN/v2/image/download/pay-3.jpg" />' . $this->config->get('dhpay_title'),
                 'terms'      => '',
                 'sort_order' => $this->config->get('dhpay_sort_order')
             );
+            return $method_data;
         }
-        return $method_data;
 	}
 
 
