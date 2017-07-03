@@ -2,7 +2,6 @@
 
 * 生产环境：[https://www.dhpay.com/merchant/web/cashier](https://www.dhpay.com/merchant/web/cashier)
 * 沙箱环境：[https://www.dhpay.com/merchant/web/cashier?env=dhpaysandbox](https://www.dhpay.com/merchant/web/cashier?env=dhpaysandbox)
-  * 沙箱环境测试所需***商户号***、***测试支付卡号***等信息请联系技术支持获取
 
 ## web 表单
 
