@@ -1,7 +1,7 @@
 # 目录
 
 ## DHpay GateWay文档
-* [DHpay集成文档](intro.md)
+* [DHpay集成文档](README.md)
     * [版本](history-version.md)
     * [保密和使用](usage.md)
     * [DHpay介绍](dhpay-intro.md)
