@@ -10,7 +10,7 @@
     * [集成步骤](integrate-steps.md)
         * [请求地址](interface-of-payment-page.md)
         * [查询 Api](query-api.md)
-        * [保值支付汇率 Api](query-fix-rate.md)
+        * [保值支付汇率 Api](fix-rate-api.md)
         * [接入方式](embed-page-interface.md)
         * [开启Token快捷支付](token-quick-payment.md)
     * [沙箱环境使用说明](sandbox-env.md)
