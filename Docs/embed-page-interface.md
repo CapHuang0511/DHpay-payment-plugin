@@ -14,6 +14,9 @@ https://www.dhpay.com/merchant/web/cashier/iframe/before
 |order_no |字符| 50| 是 |1462197131 |订单号 |
 |currency| 字符 |3 |是 |USD |币种 |
 |amount |数字| 20,2 |是| 20.85 |交易金额，必须包含 2 位小数 |
+|local_currency| 字符 |3 |否 |GBP |币种，保值交易需要填写 |
+|local_amount |数字| 20,2 |否| 30.15 |本地交易金额，必须包含 2 位小数，保值交易需要填写 |
+|fix_rate |数字| 20,6 |否| 1.562300 |本地交易金额保值汇率，必须包含 6 位小数。保值交易需要填写 |
 |buyer_email |字符| 30| 否| XXX@126.com |买家邮件地址，接入 AE 卡必须传输 |
 |shipping_country |字符 |2| 否 |US | 订单货运国家二维代码，风控要素，见附录国家代码 |
 |first_name |字符 |50 |否| Steve  | Billing 名 |
@@ -40,7 +43,8 @@ https://www.dhpay.com/merchant/web/cashier/iframe/before
 
 # 示例代码
 ```html
-<iframe src="https://www.dhpay.com/merchant/web/cashier/iframe/before?merchant_ id=1000000&invoice_id=1000000&order_no=1000000&currency=USD&amount=16 .99&buyer_email=buyer@dhpay.com&return_url=http://www.dhpay.com/callback&r emark=remark&shipping_country=US&first_name=firstname&last_name=lastname &product_name=book&product_price=16.99&product_quantity=1&address_line=shi pping_address&city=city&country=US&state=AL&zipcode=10551&hash=1000000 &payname=dhpay" width="100%" height="500px" style="border:none;"></iframe>
+<iframe src="https://www.dhpay.com/merchant/web/cashier/iframe/before?merchant_ id=1000000&invoice_id=1000000&order_no=1000000&currency=USD&amount=16 .99&buyer_email=buyer@dhpay.com&return_url=http://www.dhpay.com/callback&r emark=remark&shipping_country=US&first_name=firstname&last_name=lastname &product_name=book&product_price=16.99&product_quantity=1&address_line=shi pping_address&city=city&country=US&state=AL&zipcode=10551&hash=1000000 &payname=dhpay" width="100%" height="500px" style="border:none;">
+</iframe>
 ```
 
 # 示例图

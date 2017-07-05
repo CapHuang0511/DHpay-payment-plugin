@@ -37,7 +37,7 @@ https://www.dhpay.com/merchant/api/query/{binvoice_no}
 #### 示例
 请求URL
 
-https://api.dhpay.com/v1/query/1300000129
+https://www.dhpay.com/merchant/api/query/1300000129
 
 返回
 
