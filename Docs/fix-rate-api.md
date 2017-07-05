@@ -33,7 +33,7 @@ https://www.dhpay.com/merchant/api/fix_rate/query/{baseCurrency}_{targetCurrency
 请求URL
 
 https://www.dhpay.com/merchant/api/fix_rate/query/USD_GBP
-
+``
 返回
 
 ```json
