@@ -1,0 +1,267 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DHPAY Payment Module\n"
+"POT-Creation-Date: 2015-05-08 13:17+0100\n"
+"PO-Revision-Date: 2015-05-12 10:42+0100\n"
+"Last-Translator: Ricardo Jacobs <ricardo.jacobs@dhpay.com>\n"
+"Language-Team: Ricardo Jacobs <ricardo.jacobs@dhpay.com>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/helper.php:12 classes/helper.php:26 dhpay.php:696
+msgid "Settings"
+msgstr "Instellingen"
+
+#: classes/helper.php:16
+msgid "Warning: There are no payment methods configured yet."
+msgstr "Waarschuwing: Nog geen betaalmethoden opgeslagen."
+
+#: dhpay.php:102
+msgid "Loading payment method data..."
+msgstr "Betaalmethodes aan het ophalen..."
+
+#: dhpay.php:103
+msgid "Refresh payment methods"
+msgstr "Betaalmethodes vernieuwen"
+
+#: dhpay.php:160 dhpay.php:185
+msgid "Postback URL installed successfully."
+msgstr "Postback URL is succesvol geïnstalleerd."
+
+#: dhpay.php:223
+msgid "No active payment methods found for this merchant."
+msgstr "Geen actieve betaalmethodes gevonden voor deze merchant."
+
+#: dhpay.php:239
+msgid ""
+"This plugin requires SOAP to make payments. Please contact your hosting "
+"provider to support SOAP."
+msgstr ""
+"Deze plugin vereist SOAP om betalingen te doen. Neem contact op met uw "
+"hosting provider ter ondersteuning van SOAP."
+
+#: dhpay.php:253 dhpay.php:483
+msgid "View the manual"
+msgstr "Bekijk de handleiding"
+
+#: dhpay.php:254 dhpay.php:484
+msgid "Visit the DHPAY website"
+msgstr "Bezoek de website van DHPAY"
+
+#: dhpay.php:255
+msgid "Configuration"
+msgstr "Configuratie"
+
+#: dhpay.php:256
+msgid "Payment methods"
+msgstr "Betaalmethodes"
+
+#: dhpay.php:257
+msgid "Information"
+msgstr "Informatie"
+
+#: dhpay.php:259
+msgid "Merchant configuration"
+msgstr "Merchant configuratie"
+
+#: dhpay.php:260
+msgid ""
+"Your Merchant ID and Secretcode are available in the DHPAY Merchant Portal. "
+"See the Manual for more information."
+msgstr ""
+"Uw Merchant ID en Secretcode zijn beschikbaar in de DHPAY Merchant Portal. "
+"Raadpleeg de handleiding voor meer informatie."
+
+#: dhpay.php:263
+msgid ""
+"Are there payments methods missing from this payment table? Enable or "
+"activate them in the DHPAY Merchant Portal at"
+msgstr ""
+"Ontbreken er betalingsmethodes in dit tabel? Schakel of activeer ze via het "
+"DHPAY Merchant Portal op"
+
+#: dhpay.php:264
+msgid "Refresh Payment methods"
+msgstr "Betaalmethodes vernieuwen"
+
+#: dhpay.php:268
+msgid "Module version"
+msgstr "Module versie"
+
+#: dhpay.php:269
+msgid "WC Version"
+msgstr "WooCommerce versie"
+
+#: dhpay.php:271
+msgid "WP Version"
+msgstr "Wordpress versie"
+
+#: dhpay.php:273
+msgid "using DHPAY API"
+msgstr "met behulp van DHPAY API"
+
+#: dhpay.php:274
+msgid ""
+"Please include this information when you create a support ticket, this way "
+"we can help you better"
+msgstr ""
+"Gelieve deze informatie opnemen in een supportticket wanneer u deze maakt, "
+"op deze manier kunnen wij u beter helpen"
+
+#: dhpay.php:314
+msgid "Postback URL"
+msgstr "Postback URL"
+
+#: dhpay.php:316
+msgid ""
+"Copy and paste this URL to the Success, Error and Postback section of your "
+"DHPAY merchant account page."
+msgstr "Knip en plak dit in uw DHPAY Merchant account pagina."
+
+#: dhpay.php:320
+msgid "Merchant ID"
+msgstr "Merchant ID"
+
+#: dhpay.php:322
+msgid "Copy the Merchant ID from your DHPAY account."
+msgstr "Kopieer het Merchant ID van uw DHPAY account."
+
+#: dhpay.php:326
+msgid "Secretcode"
+msgstr "Secretcode"
+
+#: dhpay.php:328
+msgid "Copy the Secret Code from your DHPAY account."
+msgstr "Kopieer de Secretcode van uw DHPAY account."
+
+#: dhpay.php:332
+msgid "Optional configuration"
+msgstr "Optionele configuratie"
+
+#: dhpay.php:336
+msgid "Description on transaction statement"
+msgstr "Beschrijving op afschrift klant"
+
+#: dhpay.php:338
+msgid ""
+"Some payment methods allow customized descriptions on the transaction "
+"statement. If left empty the Order ID is used. (Max 100 char.)"
+msgstr ""
+"Sommige betaalmethoden accepteren een handmatige beschrijving van de "
+"betaling. Indien deze leeg gelaten word, wordt het Order ID gebruikt (Max "
+"100 tekens.)"
+
+#: dhpay.php:342
+msgid "Custom IP Range for IP Check for Postback"
+msgstr "Handmatige IP Range voor IP Check op de Postback"
+
+#: dhpay.php:344
+msgid ""
+"For example a proxy: 1.222.333.444-100.222.333.444 For multiple ranges use "
+"a , seperator: 2.2.2.2-5.5.5.5,8.8.8.8-9.9.9.9"
+msgstr ""
+"Bijvoorbeeld voor een proxy: 1.222.333.444-100.222.333.444 Voor meerdere "
+"ranges gebruik een ,: "
+"1.222.333.444-100.222.333.444,2.222.333.444-200.222.333.444"
+
+#: dhpay.php:354
+msgid "Awaiting Payment"
+msgstr "Wachten op betaling"
+
+#: dhpay.php:406
+msgid "Active"
+msgstr "Actief"
+
+#: dhpay.php:409
+msgid "Enable or disable the payment method during the checkout process"
+msgstr "Inschakelen of de betaalmethode tijdens het afrekenen uitschakelen"
+
+#: dhpay.php:413
+msgid "Displayname"
+msgstr "Display naam"
+
+#: dhpay.php:416
+msgid "Name that will be displayed during the checkout."
+msgstr "Naam die tijdens de checkout zichtbaar is."
+
+#: dhpay.php:446
+msgid "AMEX"
+msgstr "American Express"
+
+#: dhpay.php:447
+msgid "VISA"
+msgstr "VISA"
+
+#: dhpay.php:448
+msgid "MASTER"
+msgstr "Mastercard"
+
+#: dhpay.php:449
+msgid "ABNAMRO"
+msgstr "ABN AMRO"
+
+#: dhpay.php:450
+msgid "ASNBANK"
+msgstr "ASN Bank"
+
+#: dhpay.php:451
+msgid "ING"
+msgstr "ING Bank"
+
+#: dhpay.php:452
+msgid "RABOBANK"
+msgstr "Rabobank"
+
+#: dhpay.php:453
+msgid "SNSBANK"
+msgstr "SNS Bank"
+
+#: dhpay.php:454
+msgid "SNSREGIOBANK"
+msgstr "SNS Regio Bank"
+
+#: dhpay.php:455
+msgid "TRIODOSBANK"
+msgstr "Triodosbank"
+
+#: dhpay.php:456
+msgid "VANLANSCHOT"
+msgstr "Van Lanschot Bankiers"
+
+#: dhpay.php:457
+msgid "KNAB"
+msgstr "Knab"
+
+#: dhpay.php:461
+msgid "Choose your payment method"
+msgstr "Maak een keuze"
+
+#: dhpay.php:657
+msgid "Currency is not supported by this payment method"
+msgstr "Valuta wordt niet ondersteund door deze betaalmethode"
+
+#: dhpay.php:659
+msgid "This order ID already exists. Please contact the shop."
+msgstr "Deze order ID bestaat reeds. Neem contact op met de winkel."
+
+#: dhpay.php:664
+msgid "Payment error:"
+msgstr "Betalingsfout:"
+
+#~ msgid ""
+#~ "The postback URL has changed! Please copy the new postback URL and paste "
+#~ "it into your DHPAY account."
+#~ msgstr ""
+#~ "De Postback URL is veranderd! Kopieer en plak de nieuwe URL in uw DHPAY "
+#~ "account om te zorgen dat uw orders geüpdatet worden!"

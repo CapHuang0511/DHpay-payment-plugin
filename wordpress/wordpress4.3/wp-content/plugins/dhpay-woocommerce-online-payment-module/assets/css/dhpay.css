@@ -1,0 +1,17 @@
+div#dhpay-header
+{
+    width: 100%;
+    height: 120px;
+}
+
+div#dhpay-header-info
+{
+    padding-top: 95px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+div#dhpay-header-info a
+{
+    text-decoration: none;
+}

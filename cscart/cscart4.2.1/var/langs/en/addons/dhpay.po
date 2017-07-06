@@ -1,0 +1,85 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::dhpay"
+msgid "Dhpay payments"
+msgstr "Dhpay payments"
+
+msgctxt "Addons::description::dhpay"
+msgid "Lets you accept payments via Dhpay Express Checkout, Dhpay Pro, Dhpay Standard, Dhpay Advanced, and Dhpay Payflow Pro."
+msgstr "Lets you accept payments via Dhpay Express Checkout, Dhpay Pro, Dhpay Standard, Dhpay Advanced, and Dhpay Payflow Pro."
+
+msgctxt "SettingsOptions::dhpay::dhpay_status_map"
+msgid "Dhpay order status conversion map"
+msgstr "Dhpay order status conversion map"
+
+msgctxt "SettingsOptions::dhpay::dhpay_config"
+msgid "Dhpay Payment settings"
+msgstr "Dhpay Payment settings"
+
+msgctxt "Languages::dhpay_test_mode"
+msgid "dhpay_test_mode"
+msgstr "Test Mode"
+
+msgctxt "Languages::dhpay_checkout_method"
+msgid "dhpay_checkout_method"
+msgstr "Checkout Method"
+
+msgctxt "Languages::dhpay_merchant_id"
+msgid "dhpay_merchant_id"
+msgstr "Merchant ID"
+
+msgctxt "Languages::dhpay_private_key"
+msgid "dhpay_private_key"
+msgstr "Private Key"
+
+msgctxt "Languages::dhpay_style_layout"
+msgid "dhpay_style_layout"
+msgstr "Style Layout"
+
+msgctxt "Languages::dhpay_style_title"
+msgid "dhpay_style_title"
+msgstr "Style Title"
+
+msgctxt "Languages::dhpay_style_body"
+msgid "dhpay_style_body"
+msgstr "Style Body"
+
+msgctxt "Languages::dhpay_style_button"
+msgid "dhpay_style_button"
+msgstr "Style Button"
+
+msgctxt "Languages::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "Languages::protection_eligibility"
+msgid "Protection eligibility"
+msgstr "Protection eligibility"
+
+msgctxt "Languages::text_dhpay_surcharge"
+msgid "<b>Note:</b> According to the Dhpay <a href='https://www.dhpay.com/webapps/mpp/ua/useragreement-full#4' target='_blank'>policy</a> (4.6), surcharges are not supported."
+msgstr "<b>Note:</b> According to the Dhpay <a href='https://www.dhpay.com/webapps/mpp/ua/useragreement-full#4' target='_blank'>policy</a> (4.6), surcharges are not supported."
+
+msgctxt "Languages::txn_id"
+msgid "Transaction ID"
+msgstr "Transaction ID"
+
+msgctxt "Languages::ipn_errors"
+msgid "IPN errors"
+msgstr "IPN errors"
+
+msgctxt "Languages::dhpay_product_count_is_incorrect"
+msgid "Number of paid items is different than the number of items in the order"
+msgstr "Number of paid items is different than the number of items in the order"
+
+msgctxt "Languages::dhpay_currency_is_incorrect"
+msgid "Currency used for the payment is different than the order currency."
+msgstr "Currency used for the payment is different than the order currency."
+
+msgctxt "Languages::dhpay_total_is_incorrect"
+msgid "Payment total is different than the order total."
+msgstr "Payment total is different than the order total."

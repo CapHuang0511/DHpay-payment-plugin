@@ -1,0 +1,1 @@
+INSERT INTO ?:payment_processors (processor, processor_script, processor_template, admin_template, callback, type, addon) VALUES ('Dhpay', 'dhpay.php', 'views/orders/components/payments/dhpay.tpl', 'dhpay.tpl', 'Y', 'P', 'dhpay');
