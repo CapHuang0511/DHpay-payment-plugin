@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Idev_Dhpay>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Idev_Dhpay>
+    </modules>
+</config>

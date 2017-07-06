@@ -1,0 +1,37 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2013 Phoenix Medien GmbH & Co. KG (http://www.phoenix-medien.de)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+?>
+
+<script type="text/javascript">
+//<![CDATA[
+    function initDhpay() {
+        if (!document.getElementById("dhpay_settings_activationstatus")) {
+            // Don't perform for website and store view
+            return;
+        }
+        document.getElementById("dhpay_settings_activationstatus").style.display = "none";
+        $('dhpay_settings_activationstatus').up().insert('<button type="button" id="dhpay_multifuncbutton" onclick="dhpay.button()" style="display: none; margin-top: 1em;"><span id="dhpay_multifuncbutton_label" style="display:block; margin-top:1em;"></span></button>');
+        $('dhpay_settings_activationstatus').up().insert('<span id="dhpay_inf_div" style="display:block; margin-top:1em;"></span>');
+        $('dhpay_settings_activationstatus').up().insert('<input id="dhpay_settings_customer_id_hidden" type="hidden"/>');
+        dhpay = new Dhpay('<?php echo $this->getSkinUrl('images/dhpay/banner.jpg'); ?>', '<?php echo $this->getUrl('*/dhpay/activateemail'); ?>', '<?php echo $this->getUrl('*/dhpay/checksecret'); ?>', '<?php echo $this->getUrl('*/dhpay/checkemail');?>');
+    }
+//]]>
+</script>
+
