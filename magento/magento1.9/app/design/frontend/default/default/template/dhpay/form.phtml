@@ -1,0 +1,13 @@
+<?php
+/**
+ * E: jj632293@gmail.com
+ * W:www.91magento.net
+ */
+?>
+
+<?php $_code=$this->getMethodCode() ?>
+	<ul id="payment_form_<?php echo $_code ?>" style="display:none">
+		<img src="<?php echo $this->getSkinUrl('images/dhpay/dhpay.png') ?>" />
+<br/>
+		<?php echo Mage::getStoreConfig("payment/dhpay_payment/describe");?>
+	</ul>
