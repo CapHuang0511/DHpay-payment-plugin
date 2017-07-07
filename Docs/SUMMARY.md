@@ -29,6 +29,6 @@
     * [国家代码](country-code.md)
     * [签名算法](sign-algorithm.md)
     * [PHP 版本接入示例](php-access-example.md)
-    * [ASP 版本接入示例](asp-access-version.md)
     * [测试信用卡信息](test-card-informations.md)
+
 
