@@ -16,7 +16,7 @@ Title		标题
 MerchantID	商户id,从dhpay支付接口处获取
 Key		密钥,从dhpay支付接口处获取
 Gateway		网关提交接口,填写https://www.dhpay.com/merchant/web/cashier
-NotifyUrl	和DHpay的商户号需要绑定集成网站地址相同http://www.xxx.com/index.php/dhpay/payment/notify
+NotifyUrl	和DHpay的商户号需要绑定集成网站地址相同http://www.xxx.com/index.php/dhpay/payment/return
 New order status	新订单状态 选择pending
 Order status when payment success by dhpay:订单支付成功状态 选择processing
 Describe	描述出现在checkout onepage中的payment method下的描述,支持html
