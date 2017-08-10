@@ -28,7 +28,7 @@
 <input type="hidden" name="last_ name" value="martin">
 <!—billing 账单 姓 -->
 <input type="hidden" name="country" value="US">
-<!—billing 账单 国家 --><input type="hidden" name="state" value="alabama">
+<!—billing 账单 国家 部分银行网关必填 --><input type="hidden" name="state" value="alabama">
 <!—billing 账单 州省 -->
 <input type="hidden" name="city" value="newyork">
 <!—billing 账单 城市 -->
@@ -85,7 +85,7 @@
 |    shipping\_country    |  字符  |  2   |  否   |                    US                    |        订单货运国 家二维代码, 风控要素,见附录国家代码         |
 |       first\_name       |  字符  |  50  |  否   |                  Steve                   |                Billing 名                 |
 |       last\_name        |  字符  |  50  |  否   |                  martin                  |                Billing 姓                 |
-|         country         |  字符  |  2   |  否   |                    US                    |           Billing 国家, 见附录国家 代码           |
+|         country         |  字符  |  2   |  是   |                    US                    |       Billing 国家, 见附录国家 代码。部分网关必填        |
 |          state          |  字符  |  50  |  否   |                 alabama                  |                Billing 州省                |
 |          city           |  字符  |  50  |  否   |                 newyork                  |                Billing 城市                |
 |      address\_line      |  字符  | 500  |  否   |             Bboolltem st.02              |              Billing 详细地 址               |
