@@ -117,10 +117,8 @@ class DhpayReturn{
     }
 
     protected function ipn_fail(){
+        global $db;
         $comment = 'Order payment Fail!Error Msg:' . $this->failReason . '. TransactionNo:' . $this->orderId;
-
-
-
         $sql_data_array = array(
             'orders_id' => $this->orderId,
             'orders_status_id' => $this->order_status_fail,
