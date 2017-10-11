@@ -167,12 +167,12 @@ class dhpay
            '<input type="hidden" name="first_name" value="' . $order['consignee'] . '" />' .
            '<input type="hidden" name="last_name" value="" />' .
            '<input type="hidden" name="address_line" value="' . $order['address'] . '" />' .
-           '<input type="hidden" name="country" value="CN" />' .
+           '<input type="hidden" name="country" value="US" />' .
            '<input type="hidden" name="state" value="' . $provinceinfo['region_name'] . '" />' .
            '<input type="hidden" name="city" value="' . $cityinfo['region_name'] . '" />' .
            '<input type="hidden" name="buyer_email" value="' . $order['email'] . '" />' .
            '<input type="hidden" name="zipcode" value="' . $order['zipcode'] . '" />' .
-           '<input type="hidden" name="shipping_country" value="CN" />' .
+           '<input type="hidden" name="shipping_country" value="US" />' .
            '<input type="hidden" name="body_style" value="' . $payment['dhpay_style_body'] . '" />' .
            '<input type="hidden" name="title_style" value="' . $payment['dhpay_style_title'] . '" />' .
            '<input type="hidden" name="button_style" value="' . $payment['dhpay_style_button'] . '" />' .
