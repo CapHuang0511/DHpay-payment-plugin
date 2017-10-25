@@ -9,7 +9,7 @@ https://www.dhpay.com/merchant/api/query/{binvoice_no}
 |      参数       |  必需  |         示例          |                    描述                    |
 | :-----------: | :--: | :-----------------: | :--------------------------------------: |
 | Content-Type  |  是   |  application/json   | 指定提交参数和返回值格式 application/json application/xml |
-| Authorization |  是   | Basic  33323:xxxxxx | 商户认证 merchant_id 加 secret_key，冒号分割。经过 base64 编码 |
+| Authorization |  是   | Basic  33323:xxxxxx | 商户认证 merchant_id 加 secret_key，冒号分割。经过 base64 编码。注意开头的 `Basic` 后有空格 |
 
 - 请求参数
 
