@@ -92,6 +92,7 @@
 |  90  | M0092 |                 商品单价不合法                  | product price illegal                    |
 |  91  | M0093 |                 商品数量不合法                  | product quantity illegal                 |
 |  92  | M0271 |               交易金额需大于 1 美金               | amount must greater than 1 dollar        |
+|  93  | M0186 |          银联标识卡不支持（国内信用卡只支持单标卡）           | The card with China Union Pay logo is not accepted. |
 
 # 新增错误响应吗
 |  序号  |                   错误码                    |

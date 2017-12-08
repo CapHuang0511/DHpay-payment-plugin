@@ -19,10 +19,10 @@ https://www.dhpay.com/merchant/api/refund/
 | ------------------ | ---- | ---- | -------------------- | ----------------- |
 | merchant_id        | 字符   | 30   | 505172               | 商户号               |
 | invoice_id         | 字符   | 50   | a25087546043183910   | 商户退款请求ID          |
-| orginal_invoice_id | 字符   | 50   | a25043183910         | 对应的商户成功交易ID       |
+| orginal_invoice_id | 字符   | 30   | a25043183910         | 对应的商户成功交易ID       |
 | refund_amount      | 字符   | 20,2 | 12.12                | 退款金额              |
 | currency           | 字符   | 3    | USD                  | 退款币种              |
-| remark             | 字符   | 200  | incorrect operations | 备注                |
+| remark             | 字符   | 60   | incorrect operations | 备注                |
 | hash               | 字符   | 150  |                      | 参数签名,  详细签名方式请见附录 |
 
 

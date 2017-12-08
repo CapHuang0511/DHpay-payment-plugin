@@ -1,4 +1,4 @@
-# DHpay  GateWay 集成指南 V2.7
+# DHpay  GateWay 集成指南 V2.8
 
 版权信息 
 
