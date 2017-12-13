@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © 2016 Payssion All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+    <default>
+        <payment>
+            <pay_dhpay>
+                <active>0</active>
+                <title>Dhpay</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Pay\Dhpay\Model\Paymentmethod\Dhpay</model>
+                <group>pay_dhpay</group>
+            </pay_dhpay> 
+        </payment>
+    </default>
+</config>
